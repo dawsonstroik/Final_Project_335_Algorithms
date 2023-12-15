@@ -1,2 +1,4 @@
 This project was meant to advance my understanding on how algorithms are designed and how they work. This program has bubble sort and a bogosort algorithm implemented. To run this code compile and run code with a number 1 or larger. The code will create an array and fill the array in with values from 1 - (selected value). It will then randomize this array and create a duplicate array with memcpy. Then the algoirthms will sort each of one of their arrays and print out the sorted array with how long it took. 
 One problem I faced when writing the bogosort algorithm is finding an algorithm is that truly random is c is not easy. Because of this the bogosort algorithm is not perfect, it is much faster at finding the sorted array then it should be. 
+
+Run the code by first compiling in gcc or any other compiler that is able to compile c. Once you have the compile excute with ./bogoVSBubble n   n can be any number 1 or greater. 
